@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Ruda&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  background: $bg;
+  font-family: $body-ff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $paragraph-ff;
+  color: $heading-color;
+  padding: .2em 0;
+}
+
+p {
+  margin: 1.85em 0;
+  line-height: 1.85em;
+  font-weight: 100;
+}
+
+header {
+  padding: 3.5em;
+  text-align: center;
+}
+
+nav {
+  border: 1px $nav-border solid;
+  padding: 1.0em;
+}
+
+main
+{
+  padding: 1.5em;
+}
+
+footer {
+  padding: 3.0em;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+a:hover {
+  color: $hover;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+ul li a:hover {
+  color: $hover;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: $link-color;
+}
+
+nav ul li a:hover {
+  color: $hover;
+}
+
+ul,
+ol {
+  padding: 1.5em;
+}
+
+ul li {
+  padding: 0.5em;
+}
+
+ol li {
+  padding: 0.5em;
+}
