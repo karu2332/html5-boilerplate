@@ -1,0 +1,19 @@
+/* TEAM */
+    Developers: Katie Rudoff
+
+
+    Contact:    karu2332@colorado.edu
+
+/* THANKS */
+    humanstxt
+    Website: https://humanstxt.org/
+
+    HTML5 Boilerplate
+    Website: https://github.com/h5bp/html5-boilerplate
+
+/* SITE */
+  Last Update: 03/19/2022
+  Language: English
+  Standards: HTML5, CSS3, JavaScript
+  IDE: Atom
+  Tools: Webpack
