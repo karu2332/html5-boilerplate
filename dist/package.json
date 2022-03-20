@@ -1,12 +1,13 @@
 {
-  "name": " ",
+  "name": "Custom Boilerplate",
   "version": "0.0.1",
-  "description": "",
+  "description": "Create a custom starting template that combines html5 boilerplate
+  with a webpack dart-sass setup.",
   "keywords": [
     ""
   ],
-  "license": "",
-  "author": "",
+  "license": "MIT",
+  "author": "Katie Rudoff",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --port 8080"
